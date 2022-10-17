@@ -3,6 +3,7 @@ import React from 'react';
 import Tech from 'components/Tech';
 import FeaturedProjects from 'components/FeaturedProjects';
 import About from 'components/About';
+import Skills from 'components/Skills';
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       <About />
       <Tech />
       <FeaturedProjects />
+      <Skills />
     </div>
   );
 };

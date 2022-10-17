@@ -4,7 +4,7 @@ import { Section, SectionTitle } from 'StyledComponents/Section';
 const FeaturedProjects = () => {
   return (
     <Section>
-      <SectionTitle primary>FEATURED PROJECTS</SectionTitle>
+      <SectionTitle>FEATURED PROJECTS</SectionTitle>
     </Section>
   );
 };
