@@ -5,6 +5,7 @@ const Tech = () => {
   return (
     <Section primary>
       <SectionTitle>TECH</SectionTitle>
+      <p>HTML5</p>
     </Section>
   );
 };

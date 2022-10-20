@@ -19,4 +19,12 @@ export const Project = styled.div`
   min-height: 300px;
   justify-content: center;
   position: relative;
+
+  &:hover {
+    background-image: url(${(props) => props.image});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
 `;

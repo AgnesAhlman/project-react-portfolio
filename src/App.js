@@ -1,9 +1,10 @@
-import { Header, Title } from 'StyledComponents/Header';
 import React, { useEffect, useState } from 'react';
 import Tech from 'components/Tech';
 import FeaturedProjects from 'components/FeaturedProjects';
 import About from 'components/About';
 import Skills from 'components/Skills';
+import OtherProjects from 'components/OtherProjects';
+import Header from 'components/Header';
 
 export const App = () => {
   const [repos, setRepos] = useState([]);
@@ -14,16 +15,14 @@ export const App = () => {
         setRepos(json);
       });
   }, []);
-  console.log(repos);
+
   return (
     <div>
-      <Header>
-        <Title> Portfolio:AGNES AHLMAN</Title>
-      </Header>
-
+      <Header />
       <About />
       <Tech />
       <FeaturedProjects />
+      <OtherProjects repos={repos} />
       <Skills />
     </div>
   );
