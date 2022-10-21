@@ -1,10 +1,13 @@
 import React from 'react';
 import { Section, SectionTitle } from 'styledComponents/Section';
+import { SectionWrapper } from 'styledComponents/Wrapper';
 
 const Skills = () => {
   return (
     <Section primary>
-      <SectionTitle>SKILLS</SectionTitle>
+      <SectionWrapper>
+        <SectionTitle>SKILLS</SectionTitle>
+      </SectionWrapper>
     </Section>
   );
 };

@@ -1,7 +1,10 @@
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable no-confusing-arrow */
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  background-color: ${(props) => (props.primary ? 'white' : '#f3f3f3')};
+  background-color: ${(props) =>
+    props.primary ? 'var(--primary-color)' : '#f3f3f3'};
   padding: 50px;
 `;
 
