@@ -1,6 +1,6 @@
 import React from 'react';
-import { AboutMe, Dot, Line, LineDot } from 'StyledComponents/LineDot';
-import { Section } from 'StyledComponents/Section';
+import { AboutMe, Dot, Line, LineDot } from 'styledComponents/LineDot';
+import { Section } from 'styledComponents/Section';
 
 const About = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, SectionTitle } from 'StyledComponents/Section';
+import { Section, SectionTitle } from 'styledComponents/Section';
 
 const OtherProjects = (props) => {
   const idsToFilterOut = [530348858, 548878582, 530192992, 541479613];

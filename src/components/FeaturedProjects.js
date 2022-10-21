@@ -1,7 +1,7 @@
 import React from 'react';
-import { GridParent, Project } from 'StyledComponents/Grid';
-import { Section, SectionTitle } from 'StyledComponents/Section';
-import { Tags, TagsContainer } from 'StyledComponents/Tags';
+import { GridParent, Project } from 'styledComponents/Grid';
+import { Section, SectionTitle } from 'styledComponents/Section';
+import { Tags, TagsContainer } from 'styledComponents/Tags';
 import chatbot from '../assets/chatbot.png';
 import gameIcon from '../assets/game.png';
 
